@@ -1,16 +1,18 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-@import "hamburger.pcss";
+@import 'font-cy.pcss';
+@import 'hamburger.pcss';
+@import 'hero-section.pcss';
 
 @layer base {
 	html {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	body {
-		@apply font-sans;
+		@apply font-body;
 		@apply bg-black;
 		@apply text-white;
 		@apply text-base;
@@ -18,18 +20,51 @@
 	}
 
 	h1 {
+		@apply font-headline;
 		@apply text-2xl;
 	}
 
 	h2 {
+		@apply font-headline;
 		@apply text-xl;
 	}
 
 	h3 {
+		@apply font-headline;
 		@apply text-lg;
 	}
 
-	a {
-		@apply text-green-300 underline;
+	h4,
+	h5,
+	h6 {
+		@apply font-headline;
 	}
+
+	a {
+		@apply underline;
+	}
+
+	li {
+		@apply ml-6;
+		@apply pl-2;
+	}
+
+	li::marker {
+		font-size: 0.9em;
+	}
+}
+
+@layer utilities {
+	.small-caps {
+		font-variant-caps: small-caps;
+	}
+
+	.all-small-caps {
+		font-variant-caps: all-small-caps;
+	}
+}
+
+.home\:intros > div:nth-child(2n) {
+	@apply transform;
+	@apply md:translate-y-2/4;
 }

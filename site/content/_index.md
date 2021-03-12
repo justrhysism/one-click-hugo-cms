@@ -1,8 +1,7 @@
 ---
 title: A Gametech, Entertainment and Marketing company
 subtitle: Reach the next generation of consumers
-image: /img/home-jumbotron.jpg
-blurbs:
+intros:
   - heading: Who we are
     text: Livewire exists to utilise gaming to integrate brands with digitally
       native consumers, authentically intertwining brands with culture to win
@@ -16,60 +15,52 @@ blurbs:
     text: Our gaming and traditional marketing expertise impartially leads brand
       entry and strategy in the digital realm, delivering evergreen strategies
       that convert.
+
 brands:
-  title: We work with
+  title: Who we work with
   logos:
     - name: Microsoft
-      image: null
-      url: null
+      logo:
+      url:
     - name: L’Oreal
-      image: null
+      logo:
     - name: Red Bull
-      image: null
-      url: null
+      logo:
+      url:
     - name: American Express
-      image: null
-      url: null
+      logo:
+      url:
     - name: Disney
-      image: null
-      url: null
+      logo:
+      url:
     - name: Universal Pictures
-      image: null
-      url: null
+      logo:
+      url:
     - name: Burberry
-      image: null
-      url: null
+      logo:
+      url:
     - name: Jaguar
-      image: null
-      url: null
+      logo:
+      url:
     - name: Denstu
-      image: null
-      url: null
+      logo:
+      url:
     - name: Publicis
-      image: null
-      url: null
+      logo:
+      url:
     - name: WPP
-      image: null
-      url: null
+      logo:
+      url:
     - name: Epic Games
-      image: null
-      url: null
+      logo:
+      url:
     - name: EA (Electronic Arts)
-      image: null
-      url: null
+      logo:
+      url:
     - name: Activision
-      image: null
-      url: null
+      logo:
+      url:
     - name: Blizzard
-      image: null
-      url: null
-blurb:
-  heading: Empty
-  text: Empty
-intro:
-  heading: Empty
-  text: Empty
-values:
-  heading: Empty
-  text: Empty
+      logo:
+      url:
 ---
